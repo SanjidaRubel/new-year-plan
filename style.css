@@ -42,3 +42,42 @@ header p{
     padding-top: 200px;
     padding-left: 30px;
 }
+.plans{
+    height: 300px;
+}
+.my-plans{
+    display: flex;
+    margin: 0 50px;
+    justify-items: auto;
+
+}
+.my-plans div{
+    margin-right: 100px;
+}
+.plans-title{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.mindset{
+   
+    
+    margin: 0 auto;
+    height: 400px;
+    background-image: url('images/gradient1.png');
+    background-repeat: no-repeat;
+    
+}
+.mindset img{
+    opacity: 50%;
+
+   
+}
+.positive{
+    position: absolute;
+    top: 350% ;
+    padding-left: 30px;
+}
+.mindset h1{
+    color: white;
+}
