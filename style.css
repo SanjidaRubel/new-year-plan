@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+}
+
+header{
+    height: 450px;
+    background-image: url('images/banner3.png');
+    background-size: cover;
+}
+
+header div{
+padding-left: 600px;
+padding-right: 40px;
+}
+header h1{
+    padding-top: 120px;
+    
+    color: white;
+
+}
+header p{
+    text-align: right;
+    color: white;
+
+}
+
+.btn-white{
+    background-color: white;
+    color: blue;
+    padding: 5px;
+    border-radius: 5px;
+    border: 0;
+    margin-left: 150px;
+}
+#my-failures{
+    display: flex;
+    height: 450px;
+    justify-content: space-between;
+}
+
+#failures-list{
+    padding-top: 200px;
+    padding-left: 30px;
+}
