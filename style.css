@@ -3,7 +3,7 @@
 }
 
 header{
-    height: 450px;
+    height: 500px;
     background-image: url('images/banner3.png');
     background-size: cover;
 }
@@ -34,7 +34,7 @@ header p{
 }
 #my-failures{
     display: flex;
-    height: 450px;
+    height: 500px;
     justify-content: space-between;
 }
 
