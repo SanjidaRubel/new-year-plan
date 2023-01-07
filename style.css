@@ -60,11 +60,11 @@ header p{
 }
 .my-plans{
     display: flex;
-    margin: 0 50px;
 
 }
 .my-plans div{
-    margin-right: 50px;
+    margin-right: 80px;
+   
 }
 .plans-title{
     text-align: center;
