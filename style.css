@@ -1,8 +1,9 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Open Sans', sans-serif;
 }
-
+/* header style */
 header{
     height: 500px;
     background-image: url('images/banner3.png');
@@ -10,8 +11,10 @@ header{
 }
 
 header div{
-padding-left: 600px;
-padding-right: 40px;
+width: 50%;
+margin-left: 60%;
+padding-right: 20px;
+margin-right: 20px;
 }
 header h1{
     padding-top: 120px;
@@ -21,9 +24,9 @@ header h1{
 
 }
 header p{
-    text-align: right;
     color: white;
     margin-top: 20px;
+    margin-right: 20px;
 
 }
 
@@ -36,27 +39,32 @@ header p{
     margin-left: 150px;
     margin-top: 20px;
 }
-#my-failures{
+/* main part1 */
+.main-part1{
     display: flex;
-    height: 500px;
-    justify-content: space-between;
+    height: 700px;
+
+}
+.main-part1 div{
+    width: 50%;
 }
 
-#failures-list{
-    padding-top: 200px;
-    padding-left: 30px;
+.failures-reasons{
+    padding-top: 250px;
+    padding-left: 120px;
 }
-.plans{
+ /* main part2 */
+.main-part2{
     height: 300px;
+    
 }
 .my-plans{
     display: flex;
     margin: 0 50px;
-    justify-items: auto;
 
 }
 .my-plans div{
-    margin-right: 100px;
+    margin-right: 50px;
 }
 .plans-title{
     text-align: center;
@@ -64,28 +72,14 @@ header p{
     margin-top: 50px;
 }
 
-.mindset{
-   
-    height: 300px;
-    background-image: url('images/watch.png');
-    background-repeat: no-repeat;
-    
-    background-color: blue;
-    
-}
-.positive{
-    position: absolute;
-    padding-left: 30px;
-}
-.mindset h1{
-    color: white;
-    margin-top: 30px;
-}
+/* main part3 */
 .container {
     position: relative;
     
     color: white;
     background-image: url('images/gradient1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
   }
   .container img{
     opacity: 70%;
@@ -106,7 +100,7 @@ header p{
 
   }
   
-  
+  /* footer */
 footer{
     background-color: black;
     height: 300px;
