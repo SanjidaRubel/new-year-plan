@@ -1,5 +1,6 @@
 *{
     margin: 0;
+    padding: 0;
 }
 
 header{
@@ -9,18 +10,20 @@ header{
 }
 
 header div{
-padding-left: 700px;
+padding-left: 600px;
 padding-right: 40px;
 }
 header h1{
     padding-top: 120px;
     
     color: white;
+    margin-top: 20px;
 
 }
 header p{
     text-align: right;
     color: white;
+    margin-top: 20px;
 
 }
 
@@ -31,6 +34,7 @@ header p{
     border-radius: 5px;
     border: 0;
     margin-left: 150px;
+    margin-top: 20px;
 }
 #my-failures{
     display: flex;
@@ -57,29 +61,25 @@ header p{
 .plans-title{
     text-align: center;
     padding-bottom: 30px;
+    margin-top: 50px;
 }
 
 .mindset{
    
-    
-    margin: 0 auto;
-    height: 400px;
-    background-image: url('images/gradient1.png');
+    height: 300px;
+    background-image: url('images/watch.png');
     background-repeat: no-repeat;
     
-}
-.mindset img{
-    opacity: 50%;
-
-   
+    background-color: blue;
+    
 }
 .positive{
     position: absolute;
-    top: 350% ;
     padding-left: 30px;
 }
 .mindset h1{
     color: white;
+    margin-top: 30px;
 }
 footer{
     background-color: black;
